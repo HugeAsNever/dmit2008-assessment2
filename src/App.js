@@ -1,6 +1,6 @@
 import {Route, Routes} from 'react-router-dom';
 import {DashBoardPage, PageNotFound, LoginPage} from './pages';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

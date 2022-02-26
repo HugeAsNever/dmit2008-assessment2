@@ -42,7 +42,7 @@ return(
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={onHandleSubmit}>
                 Submit
             </Button>
         </Form>
@@ -50,17 +50,7 @@ return(
         <heder>
             <h1>Login Page</h1>
         </heder>
-        <form>
-            <input type="email" />
-            <button type="submit">form submmission</button>
-        </form>
-        <button onClick={onHandleSubmit}>
-            click me
-        </button>
-        <form onSubmit={onHandleSubmit}>
-        <input type="text" />
-            <button type="submit">form submmission</button>
-        </form>
+        
     </>
 
 )

@@ -2,6 +2,7 @@ import React from 'react';
 import {IoIosNotifications} from "react-icons/io";
 import {AppBarStyles, AppBarItem, AppBarItems} from './styles';
 import {IconButton} from './../../ui/buttons';
+
 function AppBar  (props){
     return( 
       <AppBarStyles>

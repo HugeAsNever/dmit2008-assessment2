@@ -42,11 +42,6 @@ return(
                 Submit
             </Button>
         </Form>
-        <form>
-            <input type="email" />
-            <input type="password" />
-            <button onClick={onHandleSubmit}>Login</button>
-        </form>
     </>
 
 )

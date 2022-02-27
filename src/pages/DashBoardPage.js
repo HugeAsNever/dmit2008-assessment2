@@ -1,6 +1,8 @@
 import React from 'react';
+import {Container} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import {AppBar} from './../components/appbar';
+
 
 
 function DashBoardPage  (props){
@@ -17,8 +19,10 @@ function DashBoardPage  (props){
             </ul>
         </nav>
       
-       <AppBar/>
+        <AppBar/>
+        <Container>
 
+        </Container>
         </> 
     )
 }

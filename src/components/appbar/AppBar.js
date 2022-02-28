@@ -8,7 +8,7 @@ import {IconButton} from './../../ui/buttons';
 
 
 
-function AppBar  (props){
+function AppBar (props){
     return( 
         <AppBarStyles>
             <AppBarGroup>

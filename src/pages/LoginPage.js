@@ -20,12 +20,6 @@ function onHandleSubmit(evt) {
 return( 
     
     <Container>
-        <nav>
-            <ul>
-                <li><Link to="/">LoginPage</Link></li>
-                <li><Link to="/dashboard">DashBoard Page</Link></li>
-            </ul>
-        </nav>
         <Row className='shadow-1-strong p-5 ' style={ {backgroundColor: "#E8EAF6"} }>
             <Col className='p-5 border border-light ' style={ {backgroundColor: "#EEEEEE"} } >
                 <Row className='justify-content-md-center'>

@@ -6,6 +6,8 @@ const SideBarStyles = styled.div `
     color: #546E7A;
     padding: 0.5rem;
     margin-top: 1rem;
+    border-right: 1px solid;
+    box-shadow:  1px 3px 2px 0 grey;
 `;
 
 const SideBarTitle = styled.h1 `
